@@ -1,0 +1,69 @@
+.nav {
+    background-color:#e6e6e6;
+}
+.nav a {
+  color: #5a5a5a;
+  font-weight: bolder;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+    font-size: 1.3em;
+    display: inline;
+    border-radius: 35px;
+}
+
+.jumbotron {
+  background-image:url('http://www.mgpportraits.com/wp-content/uploads/2014/08/abstract-polygon-background-7-e1408078932213.jpg');
+  height: 325px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+.main {
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+    }
+.main h2 {
+    color: #393c3d;
+    font-size: 24px;
+    }
+.main p {
+    font-size: 15px;
+    margin-bottom: 13px;
+    }
+p {
+    font-size: 1.25em;
+    font-family: arial;
+}

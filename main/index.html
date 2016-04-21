@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html ng-app="portfolio">
+
+<head>
+    <title>ZachTheBrown.com</title>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script src='//code.angularjs.org/1.4.7/angular-route.js'></script>
+    <script src="app.js"></script>
+    
+    <script src="js/contact.js"></script>
+    <script src="js/learn.js"></script>
+    <script src="js/personal.js"></script>
+    <script src="js/blank.js"></script>
+
+</head>
+    
+<body ng-controller="MainCtrl">
+    <div class="nav">
+            <div class="container">
+                <ul class="pull-left">
+                    <li><a href="#/index">Zachthebrown.com</a></li>
+                </ul>
+            </div>
+    </div>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Welcome</h1>
+            <p>Come in, stay awhile.</p>
+           <!-- <a href="#/learn">Learn more</a> -->
+        </div>
+    </div>    
+    <br>
+<div class="container" style="background-color:#f2f2f2; border-radius: 25px;">    
+    <div ng-view></div>    
+</div>
+    <br>
+<div class="learn-more">
+
+<div class="row">
+<div class="container">
+<div class="col-md-4">
+    <h3>About</h3>
+    <p>Click the link below to see more about me.</p>
+    <p><a href="#/learn">About Me</a></p>
+  </div>
+
+   <div class="col-md-4">
+    <h3>Projects</h3>
+    <p>Here are some simple projects that I have worked on.</p>
+    <p><a href="#/contact">Projects</a></p>
+  </div>
+
+  <div class="col-md-4">
+    <h3></h3>
+    <p>And Jesus said unto Peter, "Come forth and recieve eternal life." But Peter came fifth and recieved a toaster.</p>
+    </div>
+</div>	    
+
+  </div>
+</div>    
+    
+</body>
+      
